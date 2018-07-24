@@ -1,0 +1,634 @@
+TEST 1 BEGIN
+$ python3 -c "from question_1 import * ; print(f(67, 1, 6))"
+Here is L: [0]
+The decomposition of L into longest sublists of even numbers is: [[0]]
+None
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from question_1 import * ; print(f(68, 2, 6))"
+Here is L: [5, 3]
+The decomposition of L into longest sublists of even numbers is: []
+None
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from question_1 import * ; print(f(69, 2, 10))"
+Here is L: [10, 0]
+The decomposition of L into longest sublists of even numbers is: [[10, 0]]
+None
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from question_1 import * ; print(f(70, 3, 11))"
+Here is L: [1, 4, 11]
+The decomposition of L into longest sublists of even numbers is: [[4]]
+None
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from question_1 import * ; print(f(70, 3, 11))"
+Here is L: [1, 4, 11]
+The decomposition of L into longest sublists of even numbers is: [[4]]
+None
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from question_1 import * ; print(f(71, 3, 20))"
+Here is L: [10, 16, 19]
+The decomposition of L into longest sublists of even numbers is: [[10, 16]]
+None
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from question_1 import * ; print(f(72, 4, 20))"
+Here is L: [2, 19, 5, 11]
+The decomposition of L into longest sublists of even numbers is: [[2]]
+None
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from question_1 import * ; print(f(73, 5, 20))"
+Here is L: [8, 3, 16, 15, 18]
+The decomposition of L into longest sublists of even numbers is: [[8], [16], [18]]
+None
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from question_1 import * ; print(f(74, 6, 21))"
+Here is L: [19, 16, 3, 10, 3, 9]
+The decomposition of L into longest sublists of even numbers is: [[16], [10]]
+None
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from question_1 import * ; print(f(75, 10, 22))"
+Here is L: [14, 18, 13, 14, 1, 16, 21, 21, 15, 21]
+The decomposition of L into longest sublists of even numbers is: [[14, 18], [14], [16]]
+None
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from question_1 import * ; print(f(76, 11, 23))"
+Here is L: [11, 14, 12, 6, 9, 1, 13, 7, 9, 9, 14]
+The decomposition of L into longest sublists of even numbers is: [[14, 12, 6], [14]]
+None
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from question_1 import * ; print(f(77, 14, 24))"
+Here is L: [8, 10, 6, 7, 6, 3, 9, 15, 17, 19, 7, 4, 17, 20]
+The decomposition of L into longest sublists of even numbers is: [[8, 10, 6], [6], [4], [20]]
+None
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from question_1 import * ; print(f(78, 15, 25))"
+Here is L: [6, 3, 9, 21, 23, 8, 23, 13, 1, 20, 4, 20, 12, 24, 21]
+The decomposition of L into longest sublists of even numbers is: [[6], [8], [20, 4, 20, 12, 24]]
+None
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from question_1 import * ; print(f(79, 20, 26))"
+Here is L: [4, 14, 11, 19, 5, 7, 7, 23, 22, 15, 4, 2, 11, 0, 6, 3, 23, 15, 22, 9]
+The decomposition of L into longest sublists of even numbers is: [[4, 14], [22], [4, 2], [0, 6], [22]]
+None
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from question_1 import * ; print(f(80, 23, 27))"
+Here is L: [8, 12, 17, 22, 27, 13, 11, 11, 17, 12, 11, 0, 17, 24, 26, 12, 7, 19, 1, 12, 7, 5, 16]
+The decomposition of L into longest sublists of even numbers is: [[8, 12], [22], [12], [0], [24, 26, 12], [12], [16]]
+None
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from question_1 import * ; print(f(81, 30, 28))"
+Here is L: [16, 26, 14, 10, 17, 17, 12, 15, 26, 0, 5, 4, 14, 21, 24, 26, 19, 0, 28, 10, 9, 23, 11, 7, 9, 21, 4, 19, 2, 6]
+The decomposition of L into longest sublists of even numbers is: [[16, 26, 14, 10], [12], [26, 0], [4, 14], [24, 26], [0, 28, 10], [4], [2, 6]]
+None
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from question_1 import * ; print(f(82, 37, 29))"
+Here is L: [4, 24, 15, 16, 9, 26, 25, 5, 25, 5, 21, 8, 5, 24, 29, 1, 13, 15, 18, 26, 3, 6, 9, 17, 26, 4, 3, 15, 2, 20, 10, 25, 11, 24, 15, 2, 15]
+The decomposition of L into longest sublists of even numbers is: [[4, 24], [16], [26], [8], [24], [18, 26], [6], [26, 4], [2, 20, 10], [24], [2]]
+None
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from question_1 import * ; print(f(83, 38, 32))"
+Here is L: [31, 29, 5, 8, 24, 2, 3, 13, 12, 11, 19, 5, 3, 26, 9, 22, 19, 12, 30, 14, 28, 10, 2, 1, 1, 29, 22, 24, 11, 20, 30, 29, 20, 28, 14, 8, 26, 32]
+The decomposition of L into longest sublists of even numbers is: [[8, 24, 2], [12], [26], [22], [12, 30, 14, 28, 10, 2], [22, 24], [20, 30], [20, 28, 14, 8, 26, 32]]
+None
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from question_1 import * ; print(f(84, 41, 33))"
+Here is L: [18, 2, 31, 0, 33, 20, 12, 29, 31, 23, 9, 16, 33, 29, 25, 21, 14, 8, 30, 2, 32, 2, 9, 2, 31, 33, 18, 6, 0, 15, 12, 27, 8, 18, 7, 17, 7, 6, 4, 29, 1]
+The decomposition of L into longest sublists of even numbers is: [[18, 2], [0], [20, 12], [16], [14, 8, 30, 2, 32, 2], [2], [18, 6, 0], [12], [8, 18], [6, 4]]
+None
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from question_1 import * ; print(f(85, 50, 35))"
+Here is L: [12, 6, 20, 12, 14, 29, 22, 14, 24, 34, 34, 14, 29, 27, 7, 0, 35, 4, 27, 30, 28, 30, 14, 14, 8, 26, 7, 22, 10, 0, 24, 9, 32, 35, 14, 2, 29, 21, 10, 3, 16, 6, 26, 10, 11, 23, 27, 35, 10, 15]
+The decomposition of L into longest sublists of even numbers is: [[12, 6, 20, 12, 14], [22, 14, 24, 34, 34, 14], [0], [4], [30, 28, 30, 14, 14, 8, 26], [22, 10, 0, 24], [32], [14, 2], [10], [16, 6, 26, 10], [10]]
+None
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c "from question_2 import * ; print(f(3)); print(f(10)); print(f(15))"
+3! is 6
+There is no 3 in 6
+None
+10! is 3628800
+There is one 3 in 3628800
+None
+15! is 1307674368000
+There are 2 3's in 1307674368000
+None
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c "from question_2 import * ; print(f(13)); print(f(20)); print(f(25))"
+13! is 6227020800
+There is no 3 in 6227020800
+None
+20! is 2432902008176640000
+There is one 3 in 2432902008176640000
+None
+25! is 15511210043330985984000000
+There are 3 3's in 15511210043330985984000000
+None
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c "from question_2 import * ; print(f(13)); print(f(20)); print(f(25))"
+13! is 6227020800
+There is no 3 in 6227020800
+None
+20! is 2432902008176640000
+There is one 3 in 2432902008176640000
+None
+25! is 15511210043330985984000000
+There are 3 3's in 15511210043330985984000000
+None
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c "from question_2 import * ; print(f(17)); print(f(27)); print(f(33))"
+17! is 355687428096000
+There is one 3 in 355687428096000
+None
+27! is 10888869450418352160768000000
+There is one 3 in 10888869450418352160768000000
+None
+33! is 8683317618811886495518194401280000000
+There are 2 3's in 8683317618811886495518194401280000000
+None
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c "from question_2 import * ; print(f(19)); print(f(24)); print(f(36))"
+19! is 121645100408832000
+There is one 3 in 121645100408832000
+None
+24! is 620448401733239439360000
+There are 5 3's in 620448401733239439360000
+None
+36! is 371993326789901217467999448150835200000000
+There are 4 3's in 371993326789901217467999448150835200000000
+None
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c "from question_2 import * ; print(f(39)); print(f(42)); print(f(45))"
+39! is 20397882081197443358640281739902897356800000000
+There are 5 3's in 20397882081197443358640281739902897356800000000
+None
+42! is 1405006117752879898543142606244511569936384000000000
+There are 3 3's in 1405006117752879898543142606244511569936384000000000
+None
+45! is 119622220865480194561963161495657715064383733760000000000
+There are 5 3's in 119622220865480194561963161495657715064383733760000000000
+None
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c "from question_2 import * ; print(f(40)); print(f(43)); print(f(47))"
+40! is 815915283247897734345611269596115894272000000000
+There are 3 3's in 815915283247897734345611269596115894272000000000
+None
+43! is 60415263063373835637355132068513997507264512000000000
+There are 9 3's in 60415263063373835637355132068513997507264512000000000
+None
+47! is 258623241511168180642964355153611979969197632389120000000000
+There are 5 3's in 258623241511168180642964355153611979969197632389120000000000
+None
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c "from question_2 import * ; print(f(41)); print(f(44)); print(f(50))"
+41! is 33452526613163807108170062053440751665152000000000
+There are 5 3's in 33452526613163807108170062053440751665152000000000
+None
+44! is 2658271574788448768043625811014615890319638528000000000
+There are 3 3's in 2658271574788448768043625811014615890319638528000000000
+None
+50! is 30414093201713378043612608166064768844377641568960512000000000000
+There are 6 3's in 30414093201713378043612608166064768844377641568960512000000000000
+None
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c "from question_2 import * ; print(f(51)); print(f(52)); print(f(53))"
+51! is 1551118753287382280224243016469303211063259720016986112000000000000
+There are 6 3's in 1551118753287382280224243016469303211063259720016986112000000000000
+None
+52! is 80658175170943878571660636856403766975289505440883277824000000000000
+There are 4 3's in 80658175170943878571660636856403766975289505440883277824000000000000
+None
+53! is 4274883284060025564298013753389399649690343788366813724672000000000000
+There are 9 3's in 4274883284060025564298013753389399649690343788366813724672000000000000
+None
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c "from question_2 import * ; print(f(54)); print(f(55)); print(f(56))"
+54! is 230843697339241380472092742683027581083278564571807941132288000000000000
+There are 8 3's in 230843697339241380472092742683027581083278564571807941132288000000000000
+None
+55! is 12696403353658275925965100847566516959580321051449436762275840000000000000
+There are 5 3's in 12696403353658275925965100847566516959580321051449436762275840000000000000
+None
+56! is 710998587804863451854045647463724949736497978881168458687447040000000000000
+There are 3 3's in 710998587804863451854045647463724949736497978881168458687447040000000000000
+None
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c "from question_3 import * ; print(f(2133423556, 7)); print(f(7**11*234523, 7))"
+7 is not a proper factor of 2133423556.
+None
+7 is a proper factor of 234523 of mutiplicity 11.
+None
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c "from question_3 import * ; print(f(9734254, 43)); print(f(43**8*891342, 43))"
+43 is a proper factor of 226378 of mutiplicity 1.
+None
+43 is a proper factor of 891342 of mutiplicity 8.
+None
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c "from question_3 import * ; print(f(5632456, 52)); print(f(52**15*32335, 52))"
+52 is not a proper factor of 5632456.
+None
+52 is a proper factor of 32335 of mutiplicity 15.
+None
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c "from question_3 import * ; print(f(2245224623, 102)); print(f(102**234*3435, 102))"
+102 is not a proper factor of 2245224623.
+None
+102 is a proper factor of 3435 of mutiplicity 234.
+None
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c "from question_3 import * ; print(f(2245224623, 105)); print(f(105**193*983410, 105))"
+105 is not a proper factor of 2245224623.
+None
+105 is a proper factor of 983410 of mutiplicity 193.
+None
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c "from question_3 import * ; print(f(982312, 156)); print(f(156**95*12345, 156))"
+156 is not a proper factor of 982312.
+None
+156 is a proper factor of 12345 of mutiplicity 95.
+None
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c "from question_3 import * ; print(f(6724144124, 301)); print(f(301**50*872423, 301))"
+301 is not a proper factor of 6724144124.
+None
+301 is a proper factor of 872423 of mutiplicity 50.
+None
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c "from question_3 import * ; print(f(927342303, 311)); print(f(311**123*868343469, 311))"
+311 is not a proper factor of 927342303.
+None
+311 is a proper factor of 868343469 of mutiplicity 123.
+None
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c "from question_3 import * ; print(f(1871623124, 406)); print(f(406**321*5634, 406))"
+406 is not a proper factor of 1871623124.
+None
+406 is a proper factor of 5634 of mutiplicity 321.
+None
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c "from question_3 import * ; print(f(187168742, 505)); print(f(505**290, 505))"
+505 is not a proper factor of 187168742.
+None
+505 is a proper factor of 1 of mutiplicity 290.
+None
+TEST 40 END
+
+TEST 41 BEGIN
+$ python3 -c "from question_4 import * ; print(f(50))"
+The largest prime strictly smaller than 50 is 47.
+None
+TEST 41 END
+
+TEST 42 BEGIN
+$ python3 -c "from question_4 import * ; print(f(123))"
+The largest prime strictly smaller than 123 is 113.
+None
+TEST 42 END
+
+TEST 43 BEGIN
+$ python3 -c "from question_4 import * ; print(f(429))"
+The largest prime strictly smaller than 429 is 421.
+None
+TEST 43 END
+
+TEST 44 BEGIN
+$ python3 -c "from question_4 import * ; print(f(1237))"
+The largest prime strictly smaller than 1237 is 1231.
+None
+TEST 44 END
+
+TEST 45 BEGIN
+$ python3 -c "from question_4 import * ; print(f(5290))"
+The largest prime strictly smaller than 5290 is 5281.
+None
+TEST 45 END
+
+TEST 46 BEGIN
+$ python3 -c "from question_4 import * ; print(f(29044))"
+The largest prime strictly smaller than 29044 is 29033.
+None
+TEST 46 END
+
+TEST 47 BEGIN
+$ python3 -c "from question_4 import * ; print(f(671584))"
+The largest prime strictly smaller than 671584 is 671581.
+None
+TEST 47 END
+
+TEST 48 BEGIN
+$ python3 -c "from question_4 import * ; print(f(3276090))"
+Max running time exceeded, program killed
+TEST 48 END
+
+TEST 49 BEGIN
+$ python3 -c "from question_4 import * ; print(f(5467812))"
+Max running time exceeded, program killed
+TEST 49 END
+
+TEST 50 BEGIN
+$ python3 -c "from question_4 import * ; print(f(9657446))"
+Max running time exceeded, program killed
+TEST 50 END
+
+TEST 51 BEGIN
+$ python3 -c "from question_5 import * ; print(f('achlartyu'))"
+The longest substring of consecutive letters has a length of 1.
+The leftmost such substring is a.
+None
+TEST 51 END
+
+TEST 52 BEGIN
+$ python3 -c "from question_5 import * ; print(f('abcdefghij'))"
+The longest substring of consecutive letters has a length of 10.
+The leftmost such substring is abcdefghij.
+None
+TEST 52 END
+
+TEST 53 BEGIN
+$ python3 -c "from question_5 import * ; print(f('bbbbbbbbccccccccccccddddddddddddeeeee'))"
+The longest substring of consecutive letters has a length of 2.
+The leftmost such substring is bc.
+None
+TEST 53 END
+
+TEST 54 BEGIN
+$ python3 -c "from question_5 import * ; print(f('ababcabcdabcdeabedabcaba'))"
+The longest substring of consecutive letters has a length of 5.
+The leftmost such substring is abcde.
+None
+TEST 54 END
+
+TEST 55 BEGIN
+$ python3 -c "from question_5 import * ; print(f('andherghiefghijklzqbabchjefgh'))"
+The longest substring of consecutive letters has a length of 8.
+The leftmost such substring is efghijkl.
+None
+TEST 55 END
+
+TEST 56 BEGIN
+$ python3 -c "from question_5 import * ; print(f('amdbfrstuvsdpqrstuvcdefghij'))"
+The longest substring of consecutive letters has a length of 8.
+The leftmost such substring is cdefghij.
+None
+TEST 56 END
+
+TEST 57 BEGIN
+$ python3 -c "from question_5 import * ; print(f('sdgsghijklmnopstuvwgjfgjfdopqrstdfhdhd'))"
+The longest substring of consecutive letters has a length of 10.
+The leftmost such substring is ghijklmnop.
+None
+TEST 57 END
+
+TEST 58 BEGIN
+$ python3 -c "from question_5 import * ; print(f('sdgsghijklmnopstuvwgjfgjfdopqrstdfhdhd'))"
+The longest substring of consecutive letters has a length of 10.
+The leftmost such substring is ghijklmnop.
+None
+TEST 58 END
+
+TEST 59 BEGIN
+$ python3 -c "from question_5 import * ; print(f('bcdefghwewrttijklmnopqrstlsdjsjgoabcdefghidfgd'))"
+The longest substring of consecutive letters has a length of 12.
+The leftmost such substring is ijklmnopqrst.
+None
+TEST 59 END
+
+TEST 60 BEGIN
+$ python3 -c "from question_5 import * ; print(f('dfhsttrhehpqrstuvwxyfgdghyrtydfdgasdgasjdyjasdffasfsgsth'))"
+The longest substring of consecutive letters has a length of 10.
+The leftmost such substring is pqrstuvwxy.
+None
+TEST 60 END
+
+TEST 61 BEGIN
+$ python3 -c "from question_6 import * ; check_out_square_and_fix_if_corrupted([[1,2,3],[4,5,6],[7,8,9]]); check_out_square_and_fix_if_corrupted([[1,2,3],[5,0,4],[7,6,8]]) ; check_out_square_and_fix_if_corrupted([[1,2,3],[4,5,6],[7,6,3]])"
+Here is the square: 
+ 1  2  3
+ 4  5  6
+ 7  8  9
+It is neither a good nor a corrupted square.
+Here is the square: 
+ 1  2  3
+ 5  0  4
+ 7  6  8
+It is neither a good nor a corrupted square.
+Here is the square: 
+ 1  2  3
+ 4  5  6
+ 7  6  3
+It is neither a good nor a corrupted square.
+TEST 61 END
+
+TEST 62 BEGIN
+$ python3 -c "from question_6 import * ; check_out_square_and_fix_if_corrupted([[1,7,9],[2,5,6],[3,4,8]]); check_out_square_and_fix_if_corrupted([[8,1,7],[0,3,9],[4,6,5]]) ; check_out_square_and_fix_if_corrupted([[1,7,0],[2,5,6],[0,4,8]])"
+Here is the square: 
+ 1  7  9
+ 2  5  6
+ 3  4  8
+It is neither a good nor a corrupted square.
+Here is the square: 
+ 8  1  7
+ 0  3  9
+ 4  6  5
+It is neither a good nor a corrupted square.
+Here is the square: 
+ 1  7  0
+ 2  5  6
+ 0  4  8
+It is neither a good nor a corrupted square.
+TEST 62 END
+
+TEST 63 BEGIN
+$ python3 -c "from question_6 import * ; check_out_square_and_fix_if_corrupted([[12,2,3,13],[14,9,8,11],[15,7,1,6],[4,5,16,10]]); check_out_square_and_fix_if_corrupted([[12,2,3,13],[14,0,8,11],[15,7,1,6],[4,5,16,10]]) ; check_out_square_and_fix_if_corrupted([[10,2,3,13],[14,9,8,11],[15,7,1,6],[4,5,16,10]])"
+Here is the square: 
+12  2  3 13
+14  9  8 11
+15  7  1  6
+ 4  5 16 10
+It is neither a good nor a corrupted square.
+Here is the square: 
+12  2  3 13
+14  0  8 11
+15  7  1  6
+ 4  5 16 10
+It is neither a good nor a corrupted square.
+Here is the square: 
+10  2  3 13
+14  9  8 11
+15  7  1  6
+ 4  5 16 10
+It is neither a good nor a corrupted square.
+TEST 63 END
+
+TEST 64 BEGIN
+$ python3 -c "from question_6 import * ; check_out_square_and_fix_if_corrupted([[5,6,13,15],[16,12,1,11],[7,3,2,10],[14,8,4,9]]); check_out_square_and_fix_if_corrupted([[5,6,13,15],[16,12,1,11],[7,0,2,10],[14,8,4,9]]) ; check_out_square_and_fix_if_corrupted([[5,4,13,15],[16,12,1,11],[7,3,0,10],[14,8,4,9]])"
+Here is the square: 
+ 5  6 13 15
+16 12  1 11
+ 7  3  2 10
+14  8  4  9
+It is neither a good nor a corrupted square.
+Here is the square: 
+ 5  6 13 15
+16 12  1 11
+ 7  0  2 10
+14  8  4  9
+It is neither a good nor a corrupted square.
+Here is the square: 
+ 5  4 13 15
+16 12  1 11
+ 7  3  0 10
+14  8  4  9
+It is neither a good nor a corrupted square.
+TEST 64 END
+
+TEST 65 BEGIN
+$ python3 -c "from question_6 import * ; check_out_square_and_fix_if_corrupted([[12,6,5,13,20],[19,1,7,11,18],[8,4,21,2,9],[22,17,25,10,16],[15,23,3,14,24]]); check_out_square_and_fix_if_corrupted([[12,6,5,13,20],[19,1,7,11,18],[8,4,0,2,9],[22,17,25,10,16],[15,23,3,14,24]]) ; check_out_square_and_fix_if_corrupted([[12,6,5,13,20],[19,1,7,11,18],[0,4,21,2,9],[22,17,25,10,16],[15,23,13,14,24]])"
+Here is the square: 
+12  6  5 13 20
+19  1  7 11 18
+ 8  4 21  2  9
+22 17 25 10 16
+15 23  3 14 24
+It is neither a good nor a corrupted square.
+Here is the square: 
+12  6  5 13 20
+19  1  7 11 18
+ 8  4  0  2  9
+22 17 25 10 16
+15 23  3 14 24
+It is neither a good nor a corrupted square.
+Here is the square: 
+12  6  5 13 20
+19  1  7 11 18
+ 0  4 21  2  9
+22 17 25 10 16
+15 23 13 14 24
+It is neither a good nor a corrupted square.
+TEST 65 END
+
+TEST 66 BEGIN
+$ python3 -c "from question_7 import * ; print(f(4))"
+None
+TEST 66 END
+
+TEST 67 BEGIN
+$ python3 -c "from question_7 import * ; print(f(7))"
+None
+TEST 67 END
+
+TEST 68 BEGIN
+$ python3 -c "from question_7 import * ; print(f(13))"
+None
+TEST 68 END
+
+TEST 69 BEGIN
+$ python3 -c "from question_7 import * ; print(f(16))"
+None
+TEST 69 END
+
+TEST 70 BEGIN
+$ python3 -c "from question_7 import * ; print(f(21))"
+None
+TEST 70 END
+
+TEST 71 BEGIN
+$ python3 -c "from question_7 import * ; print(f(24))"
+None
+TEST 71 END
+
+TEST 72 BEGIN
+$ python3 -c "from question_7 import * ; print(f(29))"
+None
+TEST 72 END
+
+TEST 73 BEGIN
+$ python3 -c "from question_7 import * ; print(f(31))"
+None
+TEST 73 END
+
+TEST 74 BEGIN
+$ python3 -c "from question_7 import * ; print(f(39))"
+None
+TEST 74 END
+
+TEST 75 BEGIN
+$ python3 -c "from question_7 import * ; print(f(47))"
+None
+TEST 75 END
+

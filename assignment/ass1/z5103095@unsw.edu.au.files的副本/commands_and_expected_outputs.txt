@@ -1,0 +1,78 @@
+TEST 1 BEGIN
+$ echo coast_1.txt | python3 fish.py
+Which data file do you want to use? coast_1.txt
+The maximum quantity of fish that each town can have is 100.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo coast_2.txt | python3 fish.py
+Which data file do you want to use? coast_2.txt
+The maximum quantity of fish that each town can have is 100.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo coast_3.txt | python3 fish.py
+Which data file do you want to use? coast_3.txt
+The maximum quantity of fish that each town can have is 87.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo coast_4.txt | python3 fish.py
+Which data file do you want to use? coast_4.txt
+The maximum quantity of fish that each town can have is 94.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo coast_5.txt | python3 fish.py
+Which data file do you want to use? coast_5.txt
+The maximum quantity of fish that each town can have is 23.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo coast_6.txt | python3 fish.py
+Which data file do you want to use? coast_6.txt
+The maximum quantity of fish that each town can have is 82.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo coast_7.txt | python3 fish.py
+Which data file do you want to use? coast_7.txt
+The maximum quantity of fish that each town can have is 353.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo coast_8.txt | python3 fish.py
+Which data file do you want to use? coast_8.txt
+The maximum quantity of fish that each town can have is 9.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo coast_9.txt | python3 fish.py
+Which data file do you want to use? coast_9.txt
+The maximum quantity of fish that each town can have is 10470.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo coast_10.txt | python3 fish.py
+Which data file do you want to use? coast_10.txt
+The maximum quantity of fish that each town can have is 97720.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo coast_11.txt | python3 fish.py
+Which data file do you want to use? coast_11.txt
+The maximum quantity of fish that each town can have is 920.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo coast_12.txt | python3 fish.py
+Which data file do you want to use? coast_12.txt
+The maximum quantity of fish that each town can have is 9236.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo coast_13.txt | python3 fish.py
+Which data file do you want to use? coast_13.txt
+The maximum quantity of fish that each town can have is 97715232.
+TEST 13 END
+

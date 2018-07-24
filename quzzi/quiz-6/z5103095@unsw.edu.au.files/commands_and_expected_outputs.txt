@@ -1,0 +1,72 @@
+TEST 1 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(3,5); p2 = Point(2,11); p3 = Point(3,5); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3)'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Quizzes/Quiz_6/Submissions/z9801382@unsw.edu.au/quiz_6.py", line 46, in __init__
+    self.deal_with_error('Initialisation')
+  File "/Users/emartin/Documents/COMP9021/Quizzes/Quiz_6/Submissions/z9801382@unsw.edu.au/quiz_6.py", line 52, in deal_with_error
+    raise TriangleError('Incorrect input, triangle not created.')
+quiz_6.TriangleError: Incorrect input, triangle not created.
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4,10); p2 = Point(-8,-5); p3 = Point(0,5); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3)'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Quizzes/Quiz_6/Submissions/z9801382@unsw.edu.au/quiz_6.py", line 46, in __init__
+    self.deal_with_error('Initialisation')
+  File "/Users/emartin/Documents/COMP9021/Quizzes/Quiz_6/Submissions/z9801382@unsw.edu.au/quiz_6.py", line 52, in deal_with_error
+    raise TriangleError('Incorrect input, triangle not created.')
+quiz_6.TriangleError: Incorrect input, triangle not created.
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4,10); p2 = Point(-26,-6); p3 = Point(0,5); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); print(triangle.perimeter)'
+68.63431266441906
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4.7,11); p2 = Point(-26,-17.2); p3 = Point(0,7); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); print(triangle.area)'
+4.870000000001547
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4,10); p2 = Point(-80,-5); p3 = Point(0,5); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_2 = Point(-4,0))'
+Incorrect input, triangle not modified.
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4,10); p2 = Point(-80,-5); p3 = Point(0,5); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_1 = Point(0,0), point_2 = Point(0,2), point_3 = Point(0,11))'
+Incorrect input, triangle not modified.
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4,10); p2 = Point(-80,-5); p3 = Point(0,5); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_1 = Point(2,0), point_2 = Point(4,0), point_3 = Point(-5,0))'
+Incorrect input, triangle not modified.
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4.7,11); p2 = Point(-26,-17.2); p3 = Point(0,7); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_3 = p1, point_1 = p3); print(triangle.perimeter)'
+83.37737052587715
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4.7,11); p2 = Point(-26,-17.2); p3 = Point(0,7); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_3 = p2, point_2 = p1, point_1 = p3); print(triangle.area)'
+4.870000000001547
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4.7,11); p2 = Point(-26,-17.2); p3 = Point(0,7); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_2 = Point(-23,97)); print(triangle.perimeter)'
+189.41504748052697
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4.7,11); p2 = Point(-26,-17.2); p3 = Point(0,7); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_1 = Point(9,10), point_2 = Point(-7,15), point_3 = Point(62,-47)); print(triangle.area)'
+323.49999999999983
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c 'from quiz_6 import *; p1 = Point(4.7,11); p2 = Point(-26,-17.2); p3 = Point(0,7); triangle = Triangle(point_1 = p1, point_2 = p2, point_3 = p3); triangle.change_point_or_points(point_3 = Point(100,89), point_1 = Point(-120,-131)); print(triangle.perimeter)'
+623.5153303254573
+TEST 12 END
+

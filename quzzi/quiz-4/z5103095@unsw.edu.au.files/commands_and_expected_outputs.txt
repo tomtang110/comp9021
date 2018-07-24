@@ -1,0 +1,94 @@
+TEST 1 BEGIN
+$ echo abadname | python3 quiz_4.py
+Enter a first name: abadname
+In all years, abadname was never given as a female name.
+In all years, abadname was never given as a male name.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo Shed | python3 quiz_4.py
+Enter a first name: Shed
+In all years, Shed was never given as a female name.
+In terms of frequency, Shed was the most popular as a male name first in the year 1887.
+  It then accounted for 0.00% of all male names.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo Vira | python3 quiz_4.py
+Enter a first name: Vira
+In terms of frequency, Vira was the most popular as a female name first in the year 1896.
+  It then accounted for 0.01% of all female names.
+In all years, Vira was never given as a male name.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo Velma | python3 quiz_4.py
+Enter a first name: Velma
+In terms of frequency, Velma was the most popular as a female name first in the year 1907.
+  It then accounted for 0.27% of all female names.
+In terms of frequency, Velma was the most popular as a male name first in the year 1909.
+  It then accounted for 0.00% of all male names.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo Dee | python3 quiz_4.py
+Enter a first name: Dee
+In terms of frequency, Dee was the most popular as a female name first in the year 1962.
+  It then accounted for 0.03% of all female names.
+In terms of frequency, Dee was the most popular as a male name first in the year 1887.
+  It then accounted for 0.04% of all male names.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo Alishia | python3 quiz_4.py
+Enter a first name: Alishia
+In terms of frequency, Alishia was the most popular as a female name first in the year 1986.
+  It then accounted for 0.01% of all female names.
+In all years, Alishia was never given as a male name.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo Hugo | python3 quiz_4.py
+Enter a first name: Hugo
+In terms of frequency, Hugo was the most popular as a female name first in the year 1993.
+  It then accounted for 0.00% of all female names.
+In terms of frequency, Hugo was the most popular as a male name first in the year 2005.
+  It then accounted for 0.04% of all male names.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo Manuel | python3 quiz_4.py
+Enter a first name: Manuel
+In terms of frequency, Manuel was the most popular as a female name first in the year 1934.
+  It then accounted for 0.00% of all female names.
+In terms of frequency, Manuel was the most popular as a male name first in the year 1906.
+  It then accounted for 0.15% of all male names.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo Elizabeth | python3 quiz_4.py
+Enter a first name: Elizabeth
+In terms of frequency, Elizabeth was the most popular as a female name first in the year 1880.
+  It then accounted for 2.13% of all female names.
+In terms of frequency, Elizabeth was the most popular as a male name first in the year 1902.
+  It then accounted for 0.02% of all male names.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo Sophia | python3 quiz_4.py
+Enter a first name: Sophia
+In terms of frequency, Sophia was the most popular as a female name first in the year 2012.
+  It then accounted for 1.27% of all female names.
+In terms of frequency, Sophia was the most popular as a male name first in the year 2004.
+  It then accounted for 0.00% of all male names.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo Matthew | python3 quiz_4.py
+Enter a first name: Matthew
+In terms of frequency, Matthew was the most popular as a female name first in the year 1983.
+  It then accounted for 0.02% of all female names.
+In terms of frequency, Matthew was the most popular as a male name first in the year 1983.
+  It then accounted for 2.80% of all male names.
+TEST 11 END
+

@@ -1,0 +1,9 @@
+Test 1 ... failed	0
+Test 2 ... passed	0.5
+Test 3 ... passed	0.5
+Test 4 ... passed	0.5
+Test 5 ... passed	0.5
+
+Penalty       	
+
+Total mark    	2.0

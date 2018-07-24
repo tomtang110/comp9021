@@ -1,0 +1,30 @@
+TEST 1 BEGIN
+$ echo frames_A.txt | python3 perimeter.py
+Which data file do you want to use? frames_A.txt
+The perimeter is: 38840
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo frames_B.txt | python3 perimeter.py
+Which data file do you want to use? frames_B.txt
+The perimeter is: 24680
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo frames_C.txt | python3 perimeter.py
+Which data file do you want to use? frames_C.txt
+The perimeter is: 140
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo frames_D.txt | python3 perimeter.py
+Which data file do you want to use? frames_D.txt
+The perimeter is: 67770
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo frames_E.txt | python3 perimeter.py
+Which data file do you want to use? frames_E.txt
+The perimeter is: 3940
+TEST 5 END
+

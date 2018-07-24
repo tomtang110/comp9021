@@ -1,0 +1,760 @@
+TEST 1 BEGIN
+$ echo 1984 2 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1984 2
+Here is the tree that has been generated:
+
+381187
+      518212
+The maximum difference between consecutive leaves is: 0
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 1985 4 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1985 4
+Here is the tree that has been generated:
+
+      377405
+            386678
+423090
+
+      854363
+
+The maximum difference between consecutive leaves is: 467685
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 1986 6 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1986 6
+Here is the tree that has been generated:
+
+            99964
+
+      273608
+                  437941
+            630048
+                  821118
+879897
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 383177
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 1987 8 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1987 8
+Here is the tree that has been generated:
+
+
+
+            155384
+
+                  269053
+
+      495731
+
+                  594011
+                        601851
+            634239
+
+                  698676
+
+905446
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 332798
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 1988 10 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1988 10
+Here is the tree that has been generated:
+
+
+
+
+
+
+
+                  78842
+
+
+
+
+
+
+
+            126928
+
+
+
+                        155634
+
+                              195023
+                                    521193
+                  571197
+
+
+
+
+
+
+
+      574531
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            648347
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+851903
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      960151
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 442351
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 1989 12 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1989 12
+Here is the tree that has been generated:
+
+
+
+
+
+
+
+            115249
+
+
+
+
+
+
+
+      173915
+
+
+
+
+
+
+
+            263729
+
+                        302014
+
+                  455605
+                              540890
+                        576382
+
+595369
+
+
+
+
+
+
+
+            739740
+
+
+
+
+
+
+
+      864129
+
+
+
+                  882548
+
+
+
+            957704
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 238876
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 1990 14 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1990 14
+Here is the tree that has been generated:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      3531
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13463
+
+                        27626
+
+                  48084
+
+
+
+            88774
+
+                        95997
+
+                  137546
+
+                        150277
+
+      356454
+
+
+
+                  555287
+                              653651
+                        740088
+
+            850635
+
+
+
+                  883892
+
+
+
+The maximum difference between consecutive leaves is: 503374
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 1991 16 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1991 16
+Here is the tree that has been generated:
+
+
+
+                        10023
+
+                              28438
+
+                  198133
+
+
+
+
+
+
+
+            379975
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      447215
+
+
+
+
+
+
+
+                  519495
+
+
+
+
+
+
+
+            528211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+598054
+
+                              723537
+                                    745241
+                        791788
+
+                              799796
+                                    866364
+                  908031
+
+
+
+
+
+
+
+            924817
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      950547
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 491057
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 1992 18 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1992 18
+Here is the tree that has been generated:
+
+
+
+                        66243
+                                    139582
+                              319981
+
+                  337484
+
+
+
+
+
+
+
+            345721
+
+                              398911
+
+                        443741
+
+                              483443
+
+                  491295
+
+
+
+                        492869
+
+                              504786
+
+      653029
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            668587
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+748742
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            751252
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      780898
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            847935
+
+
+
+
+
+
+
+                  984154
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 259329
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 1993 20 | python3 quiz_9.py
+Enter two integers, the second one being positive: 1993 20
+Here is the tree that has been generated:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            38520
+
+
+
+
+
+
+
+                  122538
+
+                              161844
+
+                        175111
+
+
+
+      275781
+
+                              289857
+
+                        294719
+
+
+
+                  349209
+
+
+
+                        367378
+                                    371092
+                              419357
+                                    423886
+            470782
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+504039
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            605509
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      650139
+
+
+
+                        838688
+
+
+
+                  933407
+
+
+
+                        938078
+
+
+
+            954921
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The maximum difference between consecutive leaves is: 233179
+TEST 10 END
+

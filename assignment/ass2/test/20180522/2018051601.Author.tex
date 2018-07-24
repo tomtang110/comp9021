@@ -1,0 +1,45 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.2cm, y=-0.2cm, thick, purple]
+% North to South lines
+% North-West to South-East lines
+    \draw (2,1) -- (4,3);
+    \draw (5,1) -- (7,3);
+    \draw (10,1) -- (12,3);
+    \draw (16,1) -- (18,3);
+    \draw (26,1) -- (28,3);
+    \draw (29,1) -- (31,3);
+    \draw (34,1) -- (36,3);
+    \draw (40,1) -- (42,3);
+% West to East lines
+    \draw (0,0) -- (48,0);
+    \draw (5,1) -- (9,1);
+    \draw (19,1) -- (21,1);
+    \draw (29,1) -- (33,1);
+    \draw (43,1) -- (45,1);
+    \draw (0,3) -- (4,3);
+    \draw (21,3) -- (23,3);
+    \draw (24,3) -- (28,3);
+    \draw (45,3) -- (47,3);
+    \draw (0,4) -- (48,4);
+% South-West to North-East lines
+    \draw (0,3) -- (2,1);
+    \draw (7,3) -- (9,1);
+    \draw (12,3) -- (14,1);
+    \draw (14,3) -- (16,1);
+    \draw (24,3) -- (26,1);
+    \draw (31,3) -- (33,1);
+    \draw (36,3) -- (38,1);
+    \draw (38,3) -- (40,1);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}
